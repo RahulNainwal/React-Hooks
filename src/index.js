@@ -15,12 +15,9 @@ import Hooks10 from './functionalComponents/Hooks10'
 import Hooks11 from './functionalComponents/Hooks11'
 import Hooks12 from './functionalComponents/Hooks12'
 import Hooks13 from './functionalComponents/Hooks13'
+import Hooks14 from './functionalComponents/Hooks14'
 import RandomColorGenerator from './functionalComponents/RandomColorGenerator'
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<Hooks13 />, document.getElementById('root'));
+ReactDOM.render(<Hooks14 />, document.getElementById('root'));
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
