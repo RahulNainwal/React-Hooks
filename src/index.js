@@ -17,8 +17,11 @@ import Hooks12 from './functionalComponents/Hooks12'
 import Hooks13 from './functionalComponents/Hooks13'
 import Hooks14 from './functionalComponents/Hooks14'
 import Hooks15 from './functionalComponents/Hooks15'
+import Hooks16 from './functionalComponents/Hooks16'
+import Hooks17 from './functionalComponents/Hooks17'
+import Hooks18 from './functionalComponents/Hooks18'
 import RandomColorGenerator from './functionalComponents/RandomColorGenerator'
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<Hooks15 />, document.getElementById('root'));
+ReactDOM.render(<Hooks18 />, document.getElementById('root'));
 
