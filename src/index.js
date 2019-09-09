@@ -22,8 +22,10 @@ import Hooks17 from './functionalComponents/Hooks17'
 import Hooks18 from './functionalComponents/Hooks18'
 import Hooks19 from './functionalComponents/Hooks19'
 import UseReducerWithUseContext from './functionalComponents/useReducerWithuseContext/MainComponent'
+import FetchData1 from './fetchDataWithUseReducer/FetchDatawithUseReducer1'
+import FetchData2 from './fetchDataWithUseReducer/FetchDatawithUseReducer2'
 import RandomColorGenerator from './functionalComponents/RandomColorGenerator'
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<UseReducerWithUseContext />, document.getElementById('root'));
+ReactDOM.render(<FetchData2 />, document.getElementById('root'));
 
