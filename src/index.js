@@ -24,8 +24,9 @@ import Hooks19 from './functionalComponents/Hooks19'
 import UseReducerWithUseContext from './functionalComponents/useReducerWithuseContext/MainComponent'
 import FetchData1 from './fetchDataWithUseReducer/FetchDatawithUseReducer1'
 import FetchData2 from './fetchDataWithUseReducer/FetchDatawithUseReducer2'
+import ParentComponent from './CallbackHooks/ParentComponent'
 import RandomColorGenerator from './functionalComponents/RandomColorGenerator'
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<FetchData2 />, document.getElementById('root'));
+ReactDOM.render(<ParentComponent />, document.getElementById('root'));
 
