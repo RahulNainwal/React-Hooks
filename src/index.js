@@ -25,8 +25,11 @@ import UseReducerWithUseContext from './functionalComponents/useReducerWithuseCo
 import FetchData1 from './fetchDataWithUseReducer/FetchDatawithUseReducer1'
 import FetchData2 from './fetchDataWithUseReducer/FetchDatawithUseReducer2'
 import ParentComponent from './CallbackHooks/ParentComponent'
+import MemoHooks from './UseMemoHooks/UseMemoHooks1'
+import MemoHooks2 from './UseMemoHooks/UseMemoHooks2'
+import UseRefHooks1 from './UseRefHooks/UseRefHooks1'
 import RandomColorGenerator from './functionalComponents/RandomColorGenerator'
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<ParentComponent />, document.getElementById('root'));
+ReactDOM.render(<UseRefHooks1 />, document.getElementById('root'));
 
