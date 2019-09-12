@@ -28,8 +28,11 @@ import ParentComponent from './CallbackHooks/ParentComponent'
 import MemoHooks from './UseMemoHooks/UseMemoHooks1'
 import MemoHooks2 from './UseMemoHooks/UseMemoHooks2'
 import UseRefHooks1 from './UseRefHooks/UseRefHooks1'
+import UseRefHooks2 from './UseRefHooks/UseRefHooks2'
+import FirstUse from './CustomHooks/UseOfCustomeHooks/FirstUse'
+import SecondUse from './CustomHooks/UseOfCustomeHooks/SecondUse'
 import RandomColorGenerator from './functionalComponents/RandomColorGenerator'
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<UseRefHooks1 />, document.getElementById('root'));
+ReactDOM.render(<><FirstUse/><SecondUse/></>, document.getElementById('root'));
 
