@@ -31,8 +31,12 @@ import UseRefHooks1 from './UseRefHooks/UseRefHooks1'
 import UseRefHooks2 from './UseRefHooks/UseRefHooks2'
 import FirstUse from './CustomHooks/UseOfCustomeHooks/FirstUse'
 import SecondUse from './CustomHooks/UseOfCustomeHooks/SecondUse'
+import JuseCountHooksUse1 from './CustomHooks/UseOfCustomeHooks/useCountHooksUse1'
+import JuseCountHooksUse2 from './CustomHooks/UseOfCustomeHooks/useCountHooksUse2'
+import UseInputHooksUse1 from './CustomHooks/UseOfCustomeHooks/useInputHooksUse1'
+import UseInputHooksUse2 from './CustomHooks/UseOfCustomeHooks/useInputHooksUse2'
 import RandomColorGenerator from './functionalComponents/RandomColorGenerator'
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<><FirstUse/><SecondUse/></>, document.getElementById('root'));
+ReactDOM.render(<><UseInputHooksUse1/><UseInputHooksUse2/></>, document.getElementById('root'));
 
